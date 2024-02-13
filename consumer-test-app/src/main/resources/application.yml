@@ -1,0 +1,15 @@
+pulsar:
+  url: 'pulsar://localhost:6650'
+  topic: 'potato-topic3'
+  topic2: 'potato-topic4'
+
+
+endpoint:
+  single: 'http://localhost:8100/api/single/'
+  list: 'http://localhost:8100/api/list/'
+  obj: 'http://localhost:8100/api/obj'
+  dummy: 'http://localhost:8100/api/dummy'
+
+server:
+  port: 8101
+

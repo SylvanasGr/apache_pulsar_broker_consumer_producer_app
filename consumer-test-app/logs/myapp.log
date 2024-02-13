@@ -1,0 +1,1125 @@
+12:22:29.426 [main] INFO  c.e.t.c.ConsumerTestAppApplication - Starting ConsumerTestAppApplication using Java 11.0.14.1 on kkolios-pc with PID 14744 (C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main started by kkolios in C:\Users\kkolios\IdeaProjects\consumer-test-app)
+12:22:29.426 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+12:22:29.428 [main] INFO  c.e.t.c.ConsumerTestAppApplication - No active profile set, falling back to 1 default profile: "default"
+12:22:30.646 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8101
+12:22:30.656 [main] INFO  c.e.t.c.ConsumerTestAppApplication - Started ConsumerTestAppApplication in 1.581 seconds (JVM running for 3.298)
+12:22:39.878 [reactor-http-nio-3] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling createDummyExampleObject with exampleObj ExampleObj{name='errorrr', age=50}
+12:22:40.269 [reactor-http-nio-3] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Successfully created dummy example object
+12:51:36.804 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value dummy
+12:56:15.293 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value dummy
+12:56:52.053 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value dummy
+12:57:07.821 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value dummy
+12:57:18.836 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value dummy
+14:25:14.350 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:25:14.351 [main] INFO  c.e.t.c.ConsumerTestAppApplication - Starting ConsumerTestAppApplication using Java 11.0.14.1 on kkolios-pc with PID 15872 (C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main started by kkolios in C:\Users\kkolios\IdeaProjects\consumer-test-app)
+14:25:14.354 [main] INFO  c.e.t.c.ConsumerTestAppApplication - No active profile set, falling back to 1 default profile: "default"
+14:25:15.697 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8101
+14:25:15.718 [main] INFO  c.e.t.c.ConsumerTestAppApplication - Started ConsumerTestAppApplication in 1.672 seconds (JVM running for 2.873)
+14:37:39.905 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+14:37:59.543 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+15:20:50.105 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+15:21:18.778 [reactor-http-nio-1] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Failed to resolve 'nulltest' [A(1), AAAA(28)] after 6 queries ; nested exception is java.net.UnknownHostException: Failed to resolve 'nulltest' [A(1), AAAA(28)] after 6 queries 
+15:31:34.486 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+15:31:37.700 [reactor-http-nio-1] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Failed to resolve 'url1test' [A(1), AAAA(28)] after 6 queries ; nested exception is java.net.UnknownHostException: Failed to resolve 'url1test' [A(1), AAAA(28)] after 6 queries 
+15:31:58.833 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+15:32:19.016 [reactor-http-nio-1] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Failed to resolve 'url1test' [A(1), AAAA(28)] after 6 queries ; nested exception is java.net.UnknownHostException: Failed to resolve 'url1test' [A(1), AAAA(28)] after 6 queries 
+15:34:03.195 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+15:34:16.378 [reactor-http-nio-1] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Failed to resolve 'url1test' [A(1), AAAA(28)] after 6 queries ; nested exception is java.net.UnknownHostException: Failed to resolve 'url1test' [A(1), AAAA(28)] after 6 queries 
+15:35:51.937 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+15:36:15.496 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Connection refused: no further information: localhost/127.0.0.1:8100; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8100
+15:50:37.562 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+15:50:38.979 [reactor-http-nio-2] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Received example object: ExampleObj(name=test, age=0)
+15:51:15.159 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+15:51:26.582 [reactor-http-nio-2] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Received example object: ExampleObj(name=test, age=0)
+15:57:13.568 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+15:59:23.761 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+16:01:34.671 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+16:01:41.565 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Connection refused: no further information: localhost/127.0.0.1:8100; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8100
+16:04:23.430 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+16:04:30.512 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Connection refused: no further information: localhost/127.0.0.1:8100; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8100
+16:14:45.570 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+16:16:39.210 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+16:16:46.089 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Connection refused: no further information: localhost/127.0.0.1:8100; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8100
+16:22:08.248 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+16:22:15.058 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Connection refused: no further information: localhost/127.0.0.1:8100; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8100
+16:24:33.957 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+16:24:40.874 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Connection refused: no further information: localhost/127.0.0.1:8100; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8100
+16:30:19.008 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+16:30:25.819 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Connection refused: no further information: localhost/127.0.0.1:8100; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8100
+16:43:17.629 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+16:43:24.445 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Connection refused: no further information: localhost/127.0.0.1:8100; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8100
+16:53:41.977 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+16:55:08.919 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+16:55:15.806 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Connection refused: no further information: localhost/127.0.0.1:8100; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8100
+16:58:44.873 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+16:58:51.966 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Connection refused: no further information: localhost/127.0.0.1:8100; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8100
+17:01:51.989 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+17:02:30.340 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Connection refused: no further information: localhost/127.0.0.1:8100; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8100
+17:03:16.625 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+17:03:19.728 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Connection refused: no further information: localhost/127.0.0.1:8100; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8100
+17:09:12.147 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+17:10:58.858 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+17:26:32.394 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value 
+17:27:00.486 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value 
+17:27:02.818 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: 404 Not Found from GET /
+18:13:03.945 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value 
+00:05:52.387 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+00:07:20.602 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+00:07:29.032 [reactor-http-nio-2] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Received example object: ExampleObj(name=test, age=0)
+00:08:57.830 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+00:09:02.072 [reactor-http-nio-2] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Received example object: ExampleObj(name=test, age=0)
+00:11:43.762 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+00:11:51.520 [reactor-http-nio-2] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Received example object: ExampleObj(name=test, age=0)
+00:12:57.572 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+00:13:01.890 [reactor-http-nio-2] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Received example object: ExampleObj(name=test, age=0)
+00:14:54.152 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+00:15:01.646 [reactor-http-nio-2] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Received example object: ExampleObj(name=test, age=0)
+08:47:52.346 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+08:47:53.989 [reactor-http-nio-2] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Received example object: ExampleObj(name=test, age=0)
+08:48:20.081 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+08:48:24.933 [reactor-http-nio-2] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Received example object: ExampleObj(name=test, age=0)
+08:49:44.459 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+08:49:49.270 [reactor-http-nio-2] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Received example object: ExampleObj(name=test, age=0)
+08:57:16.834 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+08:57:23.229 [reactor-http-nio-2] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Received example object: ExampleObj(name=test, age=0)
+08:59:14.100 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+08:59:15.233 [reactor-http-nio-2] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Received example object: ExampleObj(name=test, age=0)
+09:02:10.813 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+09:02:15.787 [reactor-http-nio-2] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Received example object: ExampleObj(name=test, age=0)
+09:02:58.722 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+09:03:03.840 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: 404 Not Found from GET /test
+09:03:29.169 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+09:03:33.977 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: 404 Not Found from GET /test
+09:03:53.497 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+09:04:14.200 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: 404 Not Found from GET /test
+09:04:51.819 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+09:05:06.104 [reactor-http-nio-1] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: Failed to resolve 'test' [A(1), AAAA(28)] after 3 queries ; nested exception is java.net.UnknownHostException: Failed to resolve 'test' [A(1), AAAA(28)] after 3 queries 
+09:06:32.157 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+09:06:38.397 [reactor-http-nio-2] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Received example object: ExampleObj(name=test, age=0)
+09:10:29.711 [pulsar-client-io-1-1] INFO  o.a.p.client.impl.ConnectionPool - [[id: 0x97cb9788, L:/127.0.0.1:51107 - R:localhost/127.0.0.1:6650]] Connected to server
+09:10:29.815 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ProducerStatsRecorderImpl - Starting Pulsar producer perf with config: {
+  "topicName" : "example-topic",
+  "producerName" : null,
+  "sendTimeoutMs" : 30000,
+  "blockIfQueueFull" : false,
+  "maxPendingMessages" : 1000,
+  "maxPendingMessagesAcrossPartitions" : 50000,
+  "messageRoutingMode" : "RoundRobinPartition",
+  "hashingScheme" : "JavaStringHash",
+  "cryptoFailureAction" : "FAIL",
+  "batchingMaxPublishDelayMicros" : 1000,
+  "batchingPartitionSwitchFrequencyByPublishDelay" : 10,
+  "batchingMaxMessages" : 1000,
+  "batchingMaxBytes" : 131072,
+  "batchingEnabled" : true,
+  "chunkingEnabled" : false,
+  "compressionType" : "NONE",
+  "initialSequenceId" : null,
+  "autoUpdatePartitions" : true,
+  "autoUpdatePartitionsIntervalSeconds" : 60,
+  "multiSchema" : true,
+  "accessMode" : "Shared",
+  "properties" : { }
+}
+09:10:29.833 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ProducerStatsRecorderImpl - Pulsar client config: {
+  "serviceUrl" : "pulsar://localhost:6650",
+  "authPluginClassName" : null,
+  "authParams" : null,
+  "authParamMap" : null,
+  "operationTimeoutMs" : 30000,
+  "statsIntervalSeconds" : 60,
+  "numIoThreads" : 1,
+  "numListenerThreads" : 1,
+  "connectionsPerBroker" : 1,
+  "useTcpNoDelay" : true,
+  "useTls" : false,
+  "tlsTrustCertsFilePath" : "",
+  "tlsAllowInsecureConnection" : false,
+  "tlsHostnameVerificationEnable" : false,
+  "concurrentLookupRequest" : 5000,
+  "maxLookupRequest" : 50000,
+  "maxLookupRedirects" : 20,
+  "maxNumberOfRejectedRequestPerConnection" : 50,
+  "keepAliveIntervalSeconds" : 30,
+  "connectionTimeoutMs" : 10000,
+  "requestTimeoutMs" : 60000,
+  "initialBackoffIntervalNanos" : 100000000,
+  "maxBackoffIntervalNanos" : 60000000000,
+  "enableBusyWait" : false,
+  "listenerName" : null,
+  "useKeyStoreTls" : false,
+  "sslProvider" : null,
+  "tlsTrustStoreType" : "JKS",
+  "tlsTrustStorePath" : null,
+  "tlsTrustStorePassword" : null,
+  "tlsCiphers" : [ ],
+  "tlsProtocols" : [ ],
+  "memoryLimitBytes" : 0,
+  "proxyServiceUrl" : null,
+  "proxyProtocol" : null,
+  "enableTransaction" : false
+}
+09:10:29.849 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ProducerImpl - [example-topic] [null] Creating producer on cnx [id: 0x97cb9788, L:/127.0.0.1:51107 - R:localhost/127.0.0.1:6650]
+09:10:29.936 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ProducerImpl - [example-topic] [standalone-1-101] Created producer on cnx [id: 0x97cb9788, L:/127.0.0.1:51107 - R:localhost/127.0.0.1:6650]
+09:10:29.992 [pulsar-client-io-1-1] WARN  c.s.circe.checksum.Crc32cIntChecksum - Failed to load Circe JNI library. Falling back to Java based CRC32c provider
+09:10:30.092 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Starting Pulsar consumer status recorder with config: {
+  "topicNames" : [ "example-topic" ],
+  "topicsPattern" : null,
+  "subscriptionName" : "test-subscription",
+  "subscriptionType" : "Exclusive",
+  "subscriptionMode" : "Durable",
+  "receiverQueueSize" : 1000,
+  "acknowledgementsGroupTimeMicros" : 100000,
+  "negativeAckRedeliveryDelayMicros" : 60000000,
+  "maxTotalReceiverQueueSizeAcrossPartitions" : 50000,
+  "consumerName" : null,
+  "ackTimeoutMillis" : 0,
+  "tickDurationMillis" : 1000,
+  "priorityLevel" : 0,
+  "maxPendingChunkedMessage" : 10,
+  "autoAckOldestChunkedMessageOnQueueFull" : false,
+  "expireTimeOfIncompleteChunkedMessageMillis" : 60000,
+  "cryptoFailureAction" : "FAIL",
+  "properties" : { },
+  "readCompacted" : false,
+  "subscriptionInitialPosition" : "Latest",
+  "patternAutoDiscoveryPeriod" : 60,
+  "regexSubscriptionMode" : "PersistentOnly",
+  "deadLetterPolicy" : null,
+  "retryEnable" : false,
+  "autoUpdatePartitions" : true,
+  "autoUpdatePartitionsIntervalSeconds" : 60,
+  "replicateSubscriptionState" : false,
+  "resetIncludeHead" : false,
+  "keySharedPolicy" : null,
+  "batchIndexAckEnabled" : false,
+  "ackReceiptEnabled" : false,
+  "poolMessages" : false,
+  "maxPendingChuckedMessage" : 10
+}
+09:10:30.098 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Pulsar client config: {
+  "serviceUrl" : "pulsar://localhost:6650",
+  "authPluginClassName" : null,
+  "authParams" : null,
+  "authParamMap" : null,
+  "operationTimeoutMs" : 30000,
+  "statsIntervalSeconds" : 60,
+  "numIoThreads" : 1,
+  "numListenerThreads" : 1,
+  "connectionsPerBroker" : 1,
+  "useTcpNoDelay" : true,
+  "useTls" : false,
+  "tlsTrustCertsFilePath" : "",
+  "tlsAllowInsecureConnection" : false,
+  "tlsHostnameVerificationEnable" : false,
+  "concurrentLookupRequest" : 5000,
+  "maxLookupRequest" : 50000,
+  "maxLookupRedirects" : 20,
+  "maxNumberOfRejectedRequestPerConnection" : 50,
+  "keepAliveIntervalSeconds" : 30,
+  "connectionTimeoutMs" : 10000,
+  "requestTimeoutMs" : 60000,
+  "initialBackoffIntervalNanos" : 100000000,
+  "maxBackoffIntervalNanos" : 60000000000,
+  "enableBusyWait" : false,
+  "listenerName" : null,
+  "useKeyStoreTls" : false,
+  "sslProvider" : null,
+  "tlsTrustStoreType" : "JKS",
+  "tlsTrustStorePath" : null,
+  "tlsTrustStorePassword" : null,
+  "tlsCiphers" : [ ],
+  "tlsProtocols" : [ ],
+  "memoryLimitBytes" : 0,
+  "proxyServiceUrl" : null,
+  "proxyProtocol" : null,
+  "enableTransaction" : false
+}
+09:10:30.108 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [example-topic][test-subscription] Subscribing to topic on cnx [id: 0x97cb9788, L:/127.0.0.1:51107 - R:localhost/127.0.0.1:6650], consumerId 0
+09:10:30.190 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [example-topic][test-subscription] Subscribed to topic on localhost/127.0.0.1:6650 -- consumer: 0
+09:11:20.076 [pulsar-client-io-1-1] INFO  o.a.p.client.impl.ConnectionPool - [[id: 0x80275da2, L:/127.0.0.1:51353 - R:localhost/127.0.0.1:6650]] Connected to server
+09:11:20.153 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ProducerStatsRecorderImpl - Starting Pulsar producer perf with config: {
+  "topicName" : "example-topic",
+  "producerName" : null,
+  "sendTimeoutMs" : 30000,
+  "blockIfQueueFull" : false,
+  "maxPendingMessages" : 1000,
+  "maxPendingMessagesAcrossPartitions" : 50000,
+  "messageRoutingMode" : "RoundRobinPartition",
+  "hashingScheme" : "JavaStringHash",
+  "cryptoFailureAction" : "FAIL",
+  "batchingMaxPublishDelayMicros" : 1000,
+  "batchingPartitionSwitchFrequencyByPublishDelay" : 10,
+  "batchingMaxMessages" : 1000,
+  "batchingMaxBytes" : 131072,
+  "batchingEnabled" : true,
+  "chunkingEnabled" : false,
+  "compressionType" : "NONE",
+  "initialSequenceId" : null,
+  "autoUpdatePartitions" : true,
+  "autoUpdatePartitionsIntervalSeconds" : 60,
+  "multiSchema" : true,
+  "accessMode" : "Shared",
+  "properties" : { }
+}
+09:11:20.180 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ProducerStatsRecorderImpl - Pulsar client config: {
+  "serviceUrl" : "pulsar://localhost:6650",
+  "authPluginClassName" : null,
+  "authParams" : null,
+  "authParamMap" : null,
+  "operationTimeoutMs" : 30000,
+  "statsIntervalSeconds" : 60,
+  "numIoThreads" : 1,
+  "numListenerThreads" : 1,
+  "connectionsPerBroker" : 1,
+  "useTcpNoDelay" : true,
+  "useTls" : false,
+  "tlsTrustCertsFilePath" : "",
+  "tlsAllowInsecureConnection" : false,
+  "tlsHostnameVerificationEnable" : false,
+  "concurrentLookupRequest" : 5000,
+  "maxLookupRequest" : 50000,
+  "maxLookupRedirects" : 20,
+  "maxNumberOfRejectedRequestPerConnection" : 50,
+  "keepAliveIntervalSeconds" : 30,
+  "connectionTimeoutMs" : 10000,
+  "requestTimeoutMs" : 60000,
+  "initialBackoffIntervalNanos" : 100000000,
+  "maxBackoffIntervalNanos" : 60000000000,
+  "enableBusyWait" : false,
+  "listenerName" : null,
+  "useKeyStoreTls" : false,
+  "sslProvider" : null,
+  "tlsTrustStoreType" : "JKS",
+  "tlsTrustStorePath" : null,
+  "tlsTrustStorePassword" : null,
+  "tlsCiphers" : [ ],
+  "tlsProtocols" : [ ],
+  "memoryLimitBytes" : 0,
+  "proxyServiceUrl" : null,
+  "proxyProtocol" : null,
+  "enableTransaction" : false
+}
+09:11:20.191 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ProducerImpl - [example-topic] [null] Creating producer on cnx [id: 0x80275da2, L:/127.0.0.1:51353 - R:localhost/127.0.0.1:6650]
+09:11:20.212 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ProducerImpl - [example-topic] [standalone-1-102] Created producer on cnx [id: 0x80275da2, L:/127.0.0.1:51353 - R:localhost/127.0.0.1:6650]
+09:11:20.257 [Test worker] WARN  c.s.circe.checksum.Crc32cIntChecksum - Failed to load Circe JNI library. Falling back to Java based CRC32c provider
+09:11:20.356 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Starting Pulsar consumer status recorder with config: {
+  "topicNames" : [ "example-topic" ],
+  "topicsPattern" : null,
+  "subscriptionName" : "test-subscription",
+  "subscriptionType" : "Exclusive",
+  "subscriptionMode" : "Durable",
+  "receiverQueueSize" : 1000,
+  "acknowledgementsGroupTimeMicros" : 100000,
+  "negativeAckRedeliveryDelayMicros" : 60000000,
+  "maxTotalReceiverQueueSizeAcrossPartitions" : 50000,
+  "consumerName" : null,
+  "ackTimeoutMillis" : 0,
+  "tickDurationMillis" : 1000,
+  "priorityLevel" : 0,
+  "maxPendingChunkedMessage" : 10,
+  "autoAckOldestChunkedMessageOnQueueFull" : false,
+  "expireTimeOfIncompleteChunkedMessageMillis" : 60000,
+  "cryptoFailureAction" : "FAIL",
+  "properties" : { },
+  "readCompacted" : false,
+  "subscriptionInitialPosition" : "Latest",
+  "patternAutoDiscoveryPeriod" : 60,
+  "regexSubscriptionMode" : "PersistentOnly",
+  "deadLetterPolicy" : null,
+  "retryEnable" : false,
+  "autoUpdatePartitions" : true,
+  "autoUpdatePartitionsIntervalSeconds" : 60,
+  "replicateSubscriptionState" : false,
+  "resetIncludeHead" : false,
+  "keySharedPolicy" : null,
+  "batchIndexAckEnabled" : false,
+  "ackReceiptEnabled" : false,
+  "poolMessages" : false,
+  "maxPendingChuckedMessage" : 10
+}
+09:11:20.364 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Pulsar client config: {
+  "serviceUrl" : "pulsar://localhost:6650",
+  "authPluginClassName" : null,
+  "authParams" : null,
+  "authParamMap" : null,
+  "operationTimeoutMs" : 30000,
+  "statsIntervalSeconds" : 60,
+  "numIoThreads" : 1,
+  "numListenerThreads" : 1,
+  "connectionsPerBroker" : 1,
+  "useTcpNoDelay" : true,
+  "useTls" : false,
+  "tlsTrustCertsFilePath" : "",
+  "tlsAllowInsecureConnection" : false,
+  "tlsHostnameVerificationEnable" : false,
+  "concurrentLookupRequest" : 5000,
+  "maxLookupRequest" : 50000,
+  "maxLookupRedirects" : 20,
+  "maxNumberOfRejectedRequestPerConnection" : 50,
+  "keepAliveIntervalSeconds" : 30,
+  "connectionTimeoutMs" : 10000,
+  "requestTimeoutMs" : 60000,
+  "initialBackoffIntervalNanos" : 100000000,
+  "maxBackoffIntervalNanos" : 60000000000,
+  "enableBusyWait" : false,
+  "listenerName" : null,
+  "useKeyStoreTls" : false,
+  "sslProvider" : null,
+  "tlsTrustStoreType" : "JKS",
+  "tlsTrustStorePath" : null,
+  "tlsTrustStorePassword" : null,
+  "tlsCiphers" : [ ],
+  "tlsProtocols" : [ ],
+  "memoryLimitBytes" : 0,
+  "proxyServiceUrl" : null,
+  "proxyProtocol" : null,
+  "enableTransaction" : false
+}
+09:11:20.380 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [example-topic][test-subscription] Subscribing to topic on cnx [id: 0x80275da2, L:/127.0.0.1:51353 - R:localhost/127.0.0.1:6650], consumerId 0
+09:11:20.399 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [example-topic][test-subscription] Subscribed to topic on localhost/127.0.0.1:6650 -- consumer: 0
+09:11:20.477 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [example-topic] [test-subscription] Closed consumer
+09:11:29.880 [pulsar-client-io-1-1] INFO  o.a.p.client.impl.ConnectionPool - [[id: 0x2bf064a2, L:/127.0.0.1:51367 - R:localhost/127.0.0.1:6650]] Connected to server
+09:11:29.961 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ProducerStatsRecorderImpl - Starting Pulsar producer perf with config: {
+  "topicName" : "example-topic",
+  "producerName" : null,
+  "sendTimeoutMs" : 30000,
+  "blockIfQueueFull" : false,
+  "maxPendingMessages" : 1000,
+  "maxPendingMessagesAcrossPartitions" : 50000,
+  "messageRoutingMode" : "RoundRobinPartition",
+  "hashingScheme" : "JavaStringHash",
+  "cryptoFailureAction" : "FAIL",
+  "batchingMaxPublishDelayMicros" : 1000,
+  "batchingPartitionSwitchFrequencyByPublishDelay" : 10,
+  "batchingMaxMessages" : 1000,
+  "batchingMaxBytes" : 131072,
+  "batchingEnabled" : true,
+  "chunkingEnabled" : false,
+  "compressionType" : "NONE",
+  "initialSequenceId" : null,
+  "autoUpdatePartitions" : true,
+  "autoUpdatePartitionsIntervalSeconds" : 60,
+  "multiSchema" : true,
+  "accessMode" : "Shared",
+  "properties" : { }
+}
+09:11:29.977 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ProducerStatsRecorderImpl - Pulsar client config: {
+  "serviceUrl" : "pulsar://localhost:6650",
+  "authPluginClassName" : null,
+  "authParams" : null,
+  "authParamMap" : null,
+  "operationTimeoutMs" : 30000,
+  "statsIntervalSeconds" : 60,
+  "numIoThreads" : 1,
+  "numListenerThreads" : 1,
+  "connectionsPerBroker" : 1,
+  "useTcpNoDelay" : true,
+  "useTls" : false,
+  "tlsTrustCertsFilePath" : "",
+  "tlsAllowInsecureConnection" : false,
+  "tlsHostnameVerificationEnable" : false,
+  "concurrentLookupRequest" : 5000,
+  "maxLookupRequest" : 50000,
+  "maxLookupRedirects" : 20,
+  "maxNumberOfRejectedRequestPerConnection" : 50,
+  "keepAliveIntervalSeconds" : 30,
+  "connectionTimeoutMs" : 10000,
+  "requestTimeoutMs" : 60000,
+  "initialBackoffIntervalNanos" : 100000000,
+  "maxBackoffIntervalNanos" : 60000000000,
+  "enableBusyWait" : false,
+  "listenerName" : null,
+  "useKeyStoreTls" : false,
+  "sslProvider" : null,
+  "tlsTrustStoreType" : "JKS",
+  "tlsTrustStorePath" : null,
+  "tlsTrustStorePassword" : null,
+  "tlsCiphers" : [ ],
+  "tlsProtocols" : [ ],
+  "memoryLimitBytes" : 0,
+  "proxyServiceUrl" : null,
+  "proxyProtocol" : null,
+  "enableTransaction" : false
+}
+09:11:29.988 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ProducerImpl - [example-topic] [null] Creating producer on cnx [id: 0x2bf064a2, L:/127.0.0.1:51367 - R:localhost/127.0.0.1:6650]
+09:11:30.007 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ProducerImpl - [example-topic] [standalone-1-103] Created producer on cnx [id: 0x2bf064a2, L:/127.0.0.1:51367 - R:localhost/127.0.0.1:6650]
+09:11:30.060 [Test worker] WARN  c.s.circe.checksum.Crc32cIntChecksum - Failed to load Circe JNI library. Falling back to Java based CRC32c provider
+09:11:30.161 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Starting Pulsar consumer status recorder with config: {
+  "topicNames" : [ "example-topic" ],
+  "topicsPattern" : null,
+  "subscriptionName" : "test-subscription",
+  "subscriptionType" : "Exclusive",
+  "subscriptionMode" : "Durable",
+  "receiverQueueSize" : 1000,
+  "acknowledgementsGroupTimeMicros" : 100000,
+  "negativeAckRedeliveryDelayMicros" : 60000000,
+  "maxTotalReceiverQueueSizeAcrossPartitions" : 50000,
+  "consumerName" : null,
+  "ackTimeoutMillis" : 0,
+  "tickDurationMillis" : 1000,
+  "priorityLevel" : 0,
+  "maxPendingChunkedMessage" : 10,
+  "autoAckOldestChunkedMessageOnQueueFull" : false,
+  "expireTimeOfIncompleteChunkedMessageMillis" : 60000,
+  "cryptoFailureAction" : "FAIL",
+  "properties" : { },
+  "readCompacted" : false,
+  "subscriptionInitialPosition" : "Latest",
+  "patternAutoDiscoveryPeriod" : 60,
+  "regexSubscriptionMode" : "PersistentOnly",
+  "deadLetterPolicy" : null,
+  "retryEnable" : false,
+  "autoUpdatePartitions" : true,
+  "autoUpdatePartitionsIntervalSeconds" : 60,
+  "replicateSubscriptionState" : false,
+  "resetIncludeHead" : false,
+  "keySharedPolicy" : null,
+  "batchIndexAckEnabled" : false,
+  "ackReceiptEnabled" : false,
+  "poolMessages" : false,
+  "maxPendingChuckedMessage" : 10
+}
+09:11:30.172 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Pulsar client config: {
+  "serviceUrl" : "pulsar://localhost:6650",
+  "authPluginClassName" : null,
+  "authParams" : null,
+  "authParamMap" : null,
+  "operationTimeoutMs" : 30000,
+  "statsIntervalSeconds" : 60,
+  "numIoThreads" : 1,
+  "numListenerThreads" : 1,
+  "connectionsPerBroker" : 1,
+  "useTcpNoDelay" : true,
+  "useTls" : false,
+  "tlsTrustCertsFilePath" : "",
+  "tlsAllowInsecureConnection" : false,
+  "tlsHostnameVerificationEnable" : false,
+  "concurrentLookupRequest" : 5000,
+  "maxLookupRequest" : 50000,
+  "maxLookupRedirects" : 20,
+  "maxNumberOfRejectedRequestPerConnection" : 50,
+  "keepAliveIntervalSeconds" : 30,
+  "connectionTimeoutMs" : 10000,
+  "requestTimeoutMs" : 60000,
+  "initialBackoffIntervalNanos" : 100000000,
+  "maxBackoffIntervalNanos" : 60000000000,
+  "enableBusyWait" : false,
+  "listenerName" : null,
+  "useKeyStoreTls" : false,
+  "sslProvider" : null,
+  "tlsTrustStoreType" : "JKS",
+  "tlsTrustStorePath" : null,
+  "tlsTrustStorePassword" : null,
+  "tlsCiphers" : [ ],
+  "tlsProtocols" : [ ],
+  "memoryLimitBytes" : 0,
+  "proxyServiceUrl" : null,
+  "proxyProtocol" : null,
+  "enableTransaction" : false
+}
+09:11:30.182 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [example-topic][test-subscription] Subscribing to topic on cnx [id: 0x2bf064a2, L:/127.0.0.1:51367 - R:localhost/127.0.0.1:6650], consumerId 0
+09:11:30.197 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [example-topic][test-subscription] Subscribed to topic on localhost/127.0.0.1:6650 -- consumer: 0
+09:11:30.251 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [example-topic] [test-subscription] Closed consumer
+10:35:35.823 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+10:35:35.826 [main] INFO  c.e.t.c.ConsumerTestAppApplication - Starting ConsumerTestAppApplication using Java 11.0.14.1 on kkolios-pc with PID 20736 (C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main started by kkolios in C:\Users\kkolios\IdeaProjects\consumer-test-app)
+10:35:35.828 [main] INFO  c.e.t.c.ConsumerTestAppApplication - No active profile set, falling back to 1 default profile: "default"
+10:35:36.642 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'endpointsConfig' defined in file [C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main\com\eims\test\consumertestapp\configs\EndpointsConfig.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+10:35:36.660 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:35:36.683 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in configs.com.test.consumertestapp.EndpointsConfig required a bean of type 'java.lang.String' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+Consider adding @ConstructorBinding to configs.com.test.consumertestapp.EndpointsConfig if you intended to use constructor-based configuration property binding.
+
+10:36:00.809 [main] INFO  c.e.t.c.ConsumerTestAppApplication - Starting ConsumerTestAppApplication using Java 11.0.14.1 on kkolios-pc with PID 8832 (C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main started by kkolios in C:\Users\kkolios\IdeaProjects\consumer-test-app)
+10:36:00.805 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+10:36:00.813 [main] INFO  c.e.t.c.ConsumerTestAppApplication - No active profile set, falling back to 1 default profile: "default"
+10:36:04.027 [pulsar-client-io-1-1] INFO  o.a.p.client.impl.ConnectionPool - [[id: 0x96abe513, L:/127.0.0.1:55289 - R:localhost/127.0.0.1:6650]] Connected to server
+10:36:04.214 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Starting Pulsar consumer status recorder with config: {
+  "topicNames" : [ "potato-topic3" ],
+  "topicsPattern" : null,
+  "subscriptionName" : "Test-Sub",
+  "subscriptionType" : "Shared",
+  "subscriptionMode" : "Durable",
+  "receiverQueueSize" : 1000,
+  "acknowledgementsGroupTimeMicros" : 100000,
+  "negativeAckRedeliveryDelayMicros" : 60000000,
+  "maxTotalReceiverQueueSizeAcrossPartitions" : 50000,
+  "consumerName" : null,
+  "ackTimeoutMillis" : 0,
+  "tickDurationMillis" : 1000,
+  "priorityLevel" : 0,
+  "maxPendingChunkedMessage" : 10,
+  "autoAckOldestChunkedMessageOnQueueFull" : false,
+  "expireTimeOfIncompleteChunkedMessageMillis" : 60000,
+  "cryptoFailureAction" : "FAIL",
+  "properties" : { },
+  "readCompacted" : false,
+  "subscriptionInitialPosition" : "Latest",
+  "patternAutoDiscoveryPeriod" : 60,
+  "regexSubscriptionMode" : "PersistentOnly",
+  "deadLetterPolicy" : null,
+  "retryEnable" : false,
+  "autoUpdatePartitions" : true,
+  "autoUpdatePartitionsIntervalSeconds" : 60,
+  "replicateSubscriptionState" : false,
+  "resetIncludeHead" : false,
+  "keySharedPolicy" : null,
+  "batchIndexAckEnabled" : false,
+  "ackReceiptEnabled" : false,
+  "poolMessages" : false,
+  "maxPendingChuckedMessage" : 10
+}
+10:36:04.237 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Pulsar client config: {
+  "serviceUrl" : "pulsar://localhost:6650",
+  "authPluginClassName" : null,
+  "authParams" : null,
+  "authParamMap" : null,
+  "operationTimeoutMs" : 30000,
+  "statsIntervalSeconds" : 60,
+  "numIoThreads" : 1,
+  "numListenerThreads" : 1,
+  "connectionsPerBroker" : 1,
+  "useTcpNoDelay" : true,
+  "useTls" : false,
+  "tlsTrustCertsFilePath" : "",
+  "tlsAllowInsecureConnection" : false,
+  "tlsHostnameVerificationEnable" : false,
+  "concurrentLookupRequest" : 5000,
+  "maxLookupRequest" : 50000,
+  "maxLookupRedirects" : 20,
+  "maxNumberOfRejectedRequestPerConnection" : 50,
+  "keepAliveIntervalSeconds" : 30,
+  "connectionTimeoutMs" : 10000,
+  "requestTimeoutMs" : 60000,
+  "initialBackoffIntervalNanos" : 100000000,
+  "maxBackoffIntervalNanos" : 60000000000,
+  "enableBusyWait" : false,
+  "listenerName" : null,
+  "useKeyStoreTls" : false,
+  "sslProvider" : null,
+  "tlsTrustStoreType" : "JKS",
+  "tlsTrustStorePath" : null,
+  "tlsTrustStorePassword" : null,
+  "tlsCiphers" : [ ],
+  "tlsProtocols" : [ ],
+  "memoryLimitBytes" : 0,
+  "proxyServiceUrl" : null,
+  "proxyProtocol" : null,
+  "enableTransaction" : false
+}
+10:36:04.257 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [potato-topic3][Test-Sub] Subscribing to topic on cnx [id: 0x96abe513, L:/127.0.0.1:55289 - R:localhost/127.0.0.1:6650], consumerId 0
+10:36:04.376 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [potato-topic3][Test-Sub] Subscribed to topic on localhost/127.0.0.1:6650 -- consumer: 0
+10:36:04.388 [pulsar-client-io-6-1] INFO  o.a.p.client.impl.ConnectionPool - [[id: 0x80b01ffc, L:/127.0.0.1:55301 - R:localhost/127.0.0.1:6650]] Connected to server
+10:36:04.408 [pulsar-client-io-6-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Starting Pulsar consumer status recorder with config: {
+  "topicNames" : [ "potato-topic4" ],
+  "topicsPattern" : null,
+  "subscriptionName" : "Test-Sub",
+  "subscriptionType" : "Shared",
+  "subscriptionMode" : "Durable",
+  "receiverQueueSize" : 1000,
+  "acknowledgementsGroupTimeMicros" : 100000,
+  "negativeAckRedeliveryDelayMicros" : 60000000,
+  "maxTotalReceiverQueueSizeAcrossPartitions" : 50000,
+  "consumerName" : null,
+  "ackTimeoutMillis" : 0,
+  "tickDurationMillis" : 1000,
+  "priorityLevel" : 0,
+  "maxPendingChunkedMessage" : 10,
+  "autoAckOldestChunkedMessageOnQueueFull" : false,
+  "expireTimeOfIncompleteChunkedMessageMillis" : 60000,
+  "cryptoFailureAction" : "FAIL",
+  "properties" : { },
+  "readCompacted" : false,
+  "subscriptionInitialPosition" : "Latest",
+  "patternAutoDiscoveryPeriod" : 60,
+  "regexSubscriptionMode" : "PersistentOnly",
+  "deadLetterPolicy" : null,
+  "retryEnable" : false,
+  "autoUpdatePartitions" : true,
+  "autoUpdatePartitionsIntervalSeconds" : 60,
+  "replicateSubscriptionState" : false,
+  "resetIncludeHead" : false,
+  "keySharedPolicy" : null,
+  "batchIndexAckEnabled" : false,
+  "ackReceiptEnabled" : false,
+  "poolMessages" : false,
+  "maxPendingChuckedMessage" : 10
+}
+10:36:04.411 [pulsar-client-io-6-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Pulsar client config: {
+  "serviceUrl" : "pulsar://localhost:6650",
+  "authPluginClassName" : null,
+  "authParams" : null,
+  "authParamMap" : null,
+  "operationTimeoutMs" : 30000,
+  "statsIntervalSeconds" : 60,
+  "numIoThreads" : 1,
+  "numListenerThreads" : 1,
+  "connectionsPerBroker" : 1,
+  "useTcpNoDelay" : true,
+  "useTls" : false,
+  "tlsTrustCertsFilePath" : "",
+  "tlsAllowInsecureConnection" : false,
+  "tlsHostnameVerificationEnable" : false,
+  "concurrentLookupRequest" : 5000,
+  "maxLookupRequest" : 50000,
+  "maxLookupRedirects" : 20,
+  "maxNumberOfRejectedRequestPerConnection" : 50,
+  "keepAliveIntervalSeconds" : 30,
+  "connectionTimeoutMs" : 10000,
+  "requestTimeoutMs" : 60000,
+  "initialBackoffIntervalNanos" : 100000000,
+  "maxBackoffIntervalNanos" : 60000000000,
+  "enableBusyWait" : false,
+  "listenerName" : null,
+  "useKeyStoreTls" : false,
+  "sslProvider" : null,
+  "tlsTrustStoreType" : "JKS",
+  "tlsTrustStorePath" : null,
+  "tlsTrustStorePassword" : null,
+  "tlsCiphers" : [ ],
+  "tlsProtocols" : [ ],
+  "memoryLimitBytes" : 0,
+  "proxyServiceUrl" : null,
+  "proxyProtocol" : null,
+  "enableTransaction" : false
+}
+10:36:04.415 [pulsar-client-io-6-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [potato-topic4][Test-Sub] Subscribing to topic on cnx [id: 0x80b01ffc, L:/127.0.0.1:55301 - R:localhost/127.0.0.1:6650], consumerId 0
+10:36:04.444 [pulsar-client-io-6-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [potato-topic4][Test-Sub] Subscribed to topic on localhost/127.0.0.1:6650 -- consumer: 0
+10:36:06.167 [pulsar-client-io-6-1] WARN  c.s.circe.checksum.Crc32cIntChecksum - Failed to load Circe JNI library. Falling back to Java based CRC32c provider
+10:37:04.241 [pulsar-timer-5-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - [potato-topic3] [Test-Sub] [5ecec] Prefetched messages: 5 --- Consume throughput received: 0,12 msgs/s --- 0,00 Mbit/s --- Ack sent rate: 0,12 ack/s --- Failed messages: 0 --- batch messages: 0 ---Failed acks: 0
+10:37:04.414 [pulsar-timer-9-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - [potato-topic4] [Test-Sub] [4817f] Prefetched messages: 0 --- Consume throughput received: 0,10 msgs/s --- 0,00 Mbit/s --- Ack sent rate: 0,10 ack/s --- Failed messages: 0 --- batch messages: 0 ---Failed acks: 0
+17:08:30.007 [main] INFO  c.e.t.c.ConsumerTestAppApplication - Starting ConsumerTestAppApplication using Java 11.0.14.1 on kkolios-pc with PID 16180 (C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main started by kkolios in C:\Users\kkolios\IdeaProjects\consumer-test-app)
+17:08:30.007 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+17:08:30.014 [main] INFO  c.e.t.c.ConsumerTestAppApplication - No active profile set, falling back to 1 default profile: "default"
+17:08:31.128 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'consumerController' defined in file [C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main\com\eims\test\consumertestapp\controllers\ConsumerController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customWebClientServiceImpl' defined in file [C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main\com\eims\test\consumertestapp\service\CustomWebClientServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'configs.com.test.consumertestapp.EndpointsConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+17:08:31.147 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:08:31.164 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in service.com.test.consumertestapp.CustomWebClientServiceImpl required a bean of type 'configs.com.test.consumertestapp.EndpointsConfig' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'configs.com.test.consumertestapp.EndpointsConfig' in your configuration.
+
+17:11:42.433 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+17:11:42.439 [main] INFO  c.e.t.c.ConsumerTestAppApplication - Starting ConsumerTestAppApplication using Java 11.0.14.1 on kkolios-pc with PID 21676 (C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main started by kkolios in C:\Users\kkolios\IdeaProjects\consumer-test-app)
+17:11:42.440 [main] INFO  c.e.t.c.ConsumerTestAppApplication - No active profile set, falling back to 1 default profile: "default"
+17:11:43.066 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'consumerController' defined in file [C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main\com\eims\test\consumertestapp\controllers\ConsumerController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customWebClientServiceImpl' defined in file [C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main\com\eims\test\consumertestapp\service\CustomWebClientServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'configs.com.test.consumertestapp.EndpointsConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+17:11:43.080 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:11:43.094 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in service.com.test.consumertestapp.CustomWebClientServiceImpl required a bean of type 'configs.com.test.consumertestapp.EndpointsConfig' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'configs.com.test.consumertestapp.EndpointsConfig' in your configuration.
+
+17:12:20.888 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+17:12:20.889 [main] INFO  c.e.t.c.ConsumerTestAppApplication - Starting ConsumerTestAppApplication using Java 11.0.14.1 on kkolios-pc with PID 21512 (C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main started by kkolios in C:\Users\kkolios\IdeaProjects\consumer-test-app)
+17:12:20.892 [main] INFO  c.e.t.c.ConsumerTestAppApplication - No active profile set, falling back to 1 default profile: "default"
+17:12:26.679 [pulsar-client-io-1-1] INFO  o.a.p.client.impl.ConnectionPool - [[id: 0x6588dd19, L:/127.0.0.1:54376 - R:localhost/127.0.0.1:6650]] Connected to server
+17:12:26.815 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Starting Pulsar consumer status recorder with config: {
+  "topicNames" : [ "potato-topic3" ],
+  "topicsPattern" : null,
+  "subscriptionName" : "Test-Sub",
+  "subscriptionType" : "Shared",
+  "subscriptionMode" : "Durable",
+  "receiverQueueSize" : 1000,
+  "acknowledgementsGroupTimeMicros" : 100000,
+  "negativeAckRedeliveryDelayMicros" : 60000000,
+  "maxTotalReceiverQueueSizeAcrossPartitions" : 50000,
+  "consumerName" : null,
+  "ackTimeoutMillis" : 0,
+  "tickDurationMillis" : 1000,
+  "priorityLevel" : 0,
+  "maxPendingChunkedMessage" : 10,
+  "autoAckOldestChunkedMessageOnQueueFull" : false,
+  "expireTimeOfIncompleteChunkedMessageMillis" : 60000,
+  "cryptoFailureAction" : "FAIL",
+  "properties" : { },
+  "readCompacted" : false,
+  "subscriptionInitialPosition" : "Latest",
+  "patternAutoDiscoveryPeriod" : 60,
+  "regexSubscriptionMode" : "PersistentOnly",
+  "deadLetterPolicy" : null,
+  "retryEnable" : false,
+  "autoUpdatePartitions" : true,
+  "autoUpdatePartitionsIntervalSeconds" : 60,
+  "replicateSubscriptionState" : false,
+  "resetIncludeHead" : false,
+  "keySharedPolicy" : null,
+  "batchIndexAckEnabled" : false,
+  "ackReceiptEnabled" : false,
+  "poolMessages" : false,
+  "maxPendingChuckedMessage" : 10
+}
+17:12:26.827 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Pulsar client config: {
+  "serviceUrl" : "pulsar://localhost:6650",
+  "authPluginClassName" : null,
+  "authParams" : null,
+  "authParamMap" : null,
+  "operationTimeoutMs" : 30000,
+  "statsIntervalSeconds" : 60,
+  "numIoThreads" : 1,
+  "numListenerThreads" : 1,
+  "connectionsPerBroker" : 1,
+  "useTcpNoDelay" : true,
+  "useTls" : false,
+  "tlsTrustCertsFilePath" : "",
+  "tlsAllowInsecureConnection" : false,
+  "tlsHostnameVerificationEnable" : false,
+  "concurrentLookupRequest" : 5000,
+  "maxLookupRequest" : 50000,
+  "maxLookupRedirects" : 20,
+  "maxNumberOfRejectedRequestPerConnection" : 50,
+  "keepAliveIntervalSeconds" : 30,
+  "connectionTimeoutMs" : 10000,
+  "requestTimeoutMs" : 60000,
+  "initialBackoffIntervalNanos" : 100000000,
+  "maxBackoffIntervalNanos" : 60000000000,
+  "enableBusyWait" : false,
+  "listenerName" : null,
+  "useKeyStoreTls" : false,
+  "sslProvider" : null,
+  "tlsTrustStoreType" : "JKS",
+  "tlsTrustStorePath" : null,
+  "tlsTrustStorePassword" : null,
+  "tlsCiphers" : [ ],
+  "tlsProtocols" : [ ],
+  "memoryLimitBytes" : 0,
+  "proxyServiceUrl" : null,
+  "proxyProtocol" : null,
+  "enableTransaction" : false
+}
+17:12:26.847 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [potato-topic3][Test-Sub] Subscribing to topic on cnx [id: 0x6588dd19, L:/127.0.0.1:54376 - R:localhost/127.0.0.1:6650], consumerId 0
+17:12:26.996 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [potato-topic3][Test-Sub] Subscribed to topic on localhost/127.0.0.1:6650 -- consumer: 0
+17:12:27.008 [pulsar-client-io-6-1] INFO  o.a.p.client.impl.ConnectionPool - [[id: 0x0d0e3448, L:/127.0.0.1:54379 - R:localhost/127.0.0.1:6650]] Connected to server
+17:12:27.031 [pulsar-client-io-6-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Starting Pulsar consumer status recorder with config: {
+  "topicNames" : [ "potato-topic4" ],
+  "topicsPattern" : null,
+  "subscriptionName" : "Test-Sub",
+  "subscriptionType" : "Shared",
+  "subscriptionMode" : "Durable",
+  "receiverQueueSize" : 1000,
+  "acknowledgementsGroupTimeMicros" : 100000,
+  "negativeAckRedeliveryDelayMicros" : 60000000,
+  "maxTotalReceiverQueueSizeAcrossPartitions" : 50000,
+  "consumerName" : null,
+  "ackTimeoutMillis" : 0,
+  "tickDurationMillis" : 1000,
+  "priorityLevel" : 0,
+  "maxPendingChunkedMessage" : 10,
+  "autoAckOldestChunkedMessageOnQueueFull" : false,
+  "expireTimeOfIncompleteChunkedMessageMillis" : 60000,
+  "cryptoFailureAction" : "FAIL",
+  "properties" : { },
+  "readCompacted" : false,
+  "subscriptionInitialPosition" : "Latest",
+  "patternAutoDiscoveryPeriod" : 60,
+  "regexSubscriptionMode" : "PersistentOnly",
+  "deadLetterPolicy" : null,
+  "retryEnable" : false,
+  "autoUpdatePartitions" : true,
+  "autoUpdatePartitionsIntervalSeconds" : 60,
+  "replicateSubscriptionState" : false,
+  "resetIncludeHead" : false,
+  "keySharedPolicy" : null,
+  "batchIndexAckEnabled" : false,
+  "ackReceiptEnabled" : false,
+  "poolMessages" : false,
+  "maxPendingChuckedMessage" : 10
+}
+17:12:27.035 [pulsar-client-io-6-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Pulsar client config: {
+  "serviceUrl" : "pulsar://localhost:6650",
+  "authPluginClassName" : null,
+  "authParams" : null,
+  "authParamMap" : null,
+  "operationTimeoutMs" : 30000,
+  "statsIntervalSeconds" : 60,
+  "numIoThreads" : 1,
+  "numListenerThreads" : 1,
+  "connectionsPerBroker" : 1,
+  "useTcpNoDelay" : true,
+  "useTls" : false,
+  "tlsTrustCertsFilePath" : "",
+  "tlsAllowInsecureConnection" : false,
+  "tlsHostnameVerificationEnable" : false,
+  "concurrentLookupRequest" : 5000,
+  "maxLookupRequest" : 50000,
+  "maxLookupRedirects" : 20,
+  "maxNumberOfRejectedRequestPerConnection" : 50,
+  "keepAliveIntervalSeconds" : 30,
+  "connectionTimeoutMs" : 10000,
+  "requestTimeoutMs" : 60000,
+  "initialBackoffIntervalNanos" : 100000000,
+  "maxBackoffIntervalNanos" : 60000000000,
+  "enableBusyWait" : false,
+  "listenerName" : null,
+  "useKeyStoreTls" : false,
+  "sslProvider" : null,
+  "tlsTrustStoreType" : "JKS",
+  "tlsTrustStorePath" : null,
+  "tlsTrustStorePassword" : null,
+  "tlsCiphers" : [ ],
+  "tlsProtocols" : [ ],
+  "memoryLimitBytes" : 0,
+  "proxyServiceUrl" : null,
+  "proxyProtocol" : null,
+  "enableTransaction" : false
+}
+17:12:27.040 [pulsar-client-io-6-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [potato-topic4][Test-Sub] Subscribing to topic on cnx [id: 0x0d0e3448, L:/127.0.0.1:54379 - R:localhost/127.0.0.1:6650], consumerId 0
+17:12:27.119 [pulsar-client-io-6-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [potato-topic4][Test-Sub] Subscribed to topic on localhost/127.0.0.1:6650 -- consumer: 0
+17:14:15.068 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+17:14:15.074 [main] INFO  c.e.t.c.ConsumerTestAppApplication - Starting ConsumerTestAppApplication using Java 11.0.14.1 on kkolios-pc with PID 13828 (C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main started by kkolios in C:\Users\kkolios\IdeaProjects\consumer-test-app)
+17:14:15.076 [main] INFO  c.e.t.c.ConsumerTestAppApplication - No active profile set, falling back to 1 default profile: "default"
+17:14:15.878 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'endpointsConfig' defined in file [C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main\com\eims\test\consumertestapp\configs\EndpointsConfig.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+17:14:15.894 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:14:15.913 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in configs.com.test.consumertestapp.EndpointsConfig required a bean of type 'java.lang.String' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+Consider adding @ConstructorBinding to configs.com.test.consumertestapp.EndpointsConfig if you intended to use constructor-based configuration property binding.
+
+17:15:16.954 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+17:15:16.955 [main] INFO  c.e.t.c.ConsumerTestAppApplication - Starting ConsumerTestAppApplication using Java 11.0.14.1 on kkolios-pc with PID 24424 (C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main started by kkolios in C:\Users\kkolios\IdeaProjects\consumer-test-app)
+17:15:16.957 [main] INFO  c.e.t.c.ConsumerTestAppApplication - No active profile set, falling back to 1 default profile: "default"
+17:15:17.634 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'endpointsConfig' defined in file [C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main\com\eims\test\consumertestapp\configs\EndpointsConfig.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+17:15:17.652 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:15:17.672 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in configs.com.test.consumertestapp.EndpointsConfig required a bean of type 'java.lang.String' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+Consider adding @ConstructorBinding to configs.com.test.consumertestapp.EndpointsConfig if you intended to use constructor-based configuration property binding.
+
+17:15:43.224 [main] INFO  c.e.t.c.ConsumerTestAppApplication - Starting ConsumerTestAppApplication using Java 11.0.14.1 on kkolios-pc with PID 22548 (C:\Users\kkolios\IdeaProjects\consumer-test-app\build\classes\java\main started by kkolios in C:\Users\kkolios\IdeaProjects\consumer-test-app)
+17:15:43.222 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+17:15:43.226 [main] INFO  c.e.t.c.ConsumerTestAppApplication - No active profile set, falling back to 1 default profile: "default"
+17:15:44.967 [pulsar-client-io-1-1] INFO  o.a.p.client.impl.ConnectionPool - [[id: 0x27b130c2, L:/127.0.0.1:54479 - R:localhost/127.0.0.1:6650]] Connected to server
+17:15:45.046 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Starting Pulsar consumer status recorder with config: {
+  "topicNames" : [ "potato-topic3" ],
+  "topicsPattern" : null,
+  "subscriptionName" : "Test-Sub",
+  "subscriptionType" : "Shared",
+  "subscriptionMode" : "Durable",
+  "receiverQueueSize" : 1000,
+  "acknowledgementsGroupTimeMicros" : 100000,
+  "negativeAckRedeliveryDelayMicros" : 60000000,
+  "maxTotalReceiverQueueSizeAcrossPartitions" : 50000,
+  "consumerName" : null,
+  "ackTimeoutMillis" : 0,
+  "tickDurationMillis" : 1000,
+  "priorityLevel" : 0,
+  "maxPendingChunkedMessage" : 10,
+  "autoAckOldestChunkedMessageOnQueueFull" : false,
+  "expireTimeOfIncompleteChunkedMessageMillis" : 60000,
+  "cryptoFailureAction" : "FAIL",
+  "properties" : { },
+  "readCompacted" : false,
+  "subscriptionInitialPosition" : "Latest",
+  "patternAutoDiscoveryPeriod" : 60,
+  "regexSubscriptionMode" : "PersistentOnly",
+  "deadLetterPolicy" : null,
+  "retryEnable" : false,
+  "autoUpdatePartitions" : true,
+  "autoUpdatePartitionsIntervalSeconds" : 60,
+  "replicateSubscriptionState" : false,
+  "resetIncludeHead" : false,
+  "keySharedPolicy" : null,
+  "batchIndexAckEnabled" : false,
+  "ackReceiptEnabled" : false,
+  "poolMessages" : false,
+  "maxPendingChuckedMessage" : 10
+}
+17:15:45.053 [pulsar-client-io-1-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Pulsar client config: {
+  "serviceUrl" : "pulsar://localhost:6650",
+  "authPluginClassName" : null,
+  "authParams" : null,
+  "authParamMap" : null,
+  "operationTimeoutMs" : 30000,
+  "statsIntervalSeconds" : 60,
+  "numIoThreads" : 1,
+  "numListenerThreads" : 1,
+  "connectionsPerBroker" : 1,
+  "useTcpNoDelay" : true,
+  "useTls" : false,
+  "tlsTrustCertsFilePath" : "",
+  "tlsAllowInsecureConnection" : false,
+  "tlsHostnameVerificationEnable" : false,
+  "concurrentLookupRequest" : 5000,
+  "maxLookupRequest" : 50000,
+  "maxLookupRedirects" : 20,
+  "maxNumberOfRejectedRequestPerConnection" : 50,
+  "keepAliveIntervalSeconds" : 30,
+  "connectionTimeoutMs" : 10000,
+  "requestTimeoutMs" : 60000,
+  "initialBackoffIntervalNanos" : 100000000,
+  "maxBackoffIntervalNanos" : 60000000000,
+  "enableBusyWait" : false,
+  "listenerName" : null,
+  "useKeyStoreTls" : false,
+  "sslProvider" : null,
+  "tlsTrustStoreType" : "JKS",
+  "tlsTrustStorePath" : null,
+  "tlsTrustStorePassword" : null,
+  "tlsCiphers" : [ ],
+  "tlsProtocols" : [ ],
+  "memoryLimitBytes" : 0,
+  "proxyServiceUrl" : null,
+  "proxyProtocol" : null,
+  "enableTransaction" : false
+}
+17:15:45.063 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [potato-topic3][Test-Sub] Subscribing to topic on cnx [id: 0x27b130c2, L:/127.0.0.1:54479 - R:localhost/127.0.0.1:6650], consumerId 0
+17:15:45.107 [pulsar-client-io-1-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [potato-topic3][Test-Sub] Subscribed to topic on localhost/127.0.0.1:6650 -- consumer: 0
+17:15:45.113 [pulsar-client-io-6-1] INFO  o.a.p.client.impl.ConnectionPool - [[id: 0xa80bc481, L:/127.0.0.1:54482 - R:localhost/127.0.0.1:6650]] Connected to server
+17:15:45.123 [pulsar-client-io-6-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Starting Pulsar consumer status recorder with config: {
+  "topicNames" : [ "potato-topic4" ],
+  "topicsPattern" : null,
+  "subscriptionName" : "Test-Sub",
+  "subscriptionType" : "Shared",
+  "subscriptionMode" : "Durable",
+  "receiverQueueSize" : 1000,
+  "acknowledgementsGroupTimeMicros" : 100000,
+  "negativeAckRedeliveryDelayMicros" : 60000000,
+  "maxTotalReceiverQueueSizeAcrossPartitions" : 50000,
+  "consumerName" : null,
+  "ackTimeoutMillis" : 0,
+  "tickDurationMillis" : 1000,
+  "priorityLevel" : 0,
+  "maxPendingChunkedMessage" : 10,
+  "autoAckOldestChunkedMessageOnQueueFull" : false,
+  "expireTimeOfIncompleteChunkedMessageMillis" : 60000,
+  "cryptoFailureAction" : "FAIL",
+  "properties" : { },
+  "readCompacted" : false,
+  "subscriptionInitialPosition" : "Latest",
+  "patternAutoDiscoveryPeriod" : 60,
+  "regexSubscriptionMode" : "PersistentOnly",
+  "deadLetterPolicy" : null,
+  "retryEnable" : false,
+  "autoUpdatePartitions" : true,
+  "autoUpdatePartitionsIntervalSeconds" : 60,
+  "replicateSubscriptionState" : false,
+  "resetIncludeHead" : false,
+  "keySharedPolicy" : null,
+  "batchIndexAckEnabled" : false,
+  "ackReceiptEnabled" : false,
+  "poolMessages" : false,
+  "maxPendingChuckedMessage" : 10
+}
+17:15:45.125 [pulsar-client-io-6-1] INFO  o.a.p.c.i.ConsumerStatsRecorderImpl - Pulsar client config: {
+  "serviceUrl" : "pulsar://localhost:6650",
+  "authPluginClassName" : null,
+  "authParams" : null,
+  "authParamMap" : null,
+  "operationTimeoutMs" : 30000,
+  "statsIntervalSeconds" : 60,
+  "numIoThreads" : 1,
+  "numListenerThreads" : 1,
+  "connectionsPerBroker" : 1,
+  "useTcpNoDelay" : true,
+  "useTls" : false,
+  "tlsTrustCertsFilePath" : "",
+  "tlsAllowInsecureConnection" : false,
+  "tlsHostnameVerificationEnable" : false,
+  "concurrentLookupRequest" : 5000,
+  "maxLookupRequest" : 50000,
+  "maxLookupRedirects" : 20,
+  "maxNumberOfRejectedRequestPerConnection" : 50,
+  "keepAliveIntervalSeconds" : 30,
+  "connectionTimeoutMs" : 10000,
+  "requestTimeoutMs" : 60000,
+  "initialBackoffIntervalNanos" : 100000000,
+  "maxBackoffIntervalNanos" : 60000000000,
+  "enableBusyWait" : false,
+  "listenerName" : null,
+  "useKeyStoreTls" : false,
+  "sslProvider" : null,
+  "tlsTrustStoreType" : "JKS",
+  "tlsTrustStorePath" : null,
+  "tlsTrustStorePassword" : null,
+  "tlsCiphers" : [ ],
+  "tlsProtocols" : [ ],
+  "memoryLimitBytes" : 0,
+  "proxyServiceUrl" : null,
+  "proxyProtocol" : null,
+  "enableTransaction" : false
+}
+17:15:45.127 [pulsar-client-io-6-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [potato-topic4][Test-Sub] Subscribing to topic on cnx [id: 0xa80bc481, L:/127.0.0.1:54482 - R:localhost/127.0.0.1:6650], consumerId 0
+17:15:45.150 [pulsar-client-io-6-1] INFO  o.a.pulsar.client.impl.ConsumerImpl - [potato-topic4][Test-Sub] Subscribed to topic on localhost/127.0.0.1:6650 -- consumer: 0
+17:22:47.379 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+17:23:33.760 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+17:25:34.123 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+17:25:39.662 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: 200 OK from GET http://localhost:54858/nulltest; nested exception is org.springframework.web.reactive.function.UnsupportedMediaTypeException: Content type 'application/octet-stream' not supported for bodyType=model.com.test.consumertestapp.ExampleObj
+09:05:41.141 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+09:05:46.514 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: 200 OK from GET http://localhost:60266/nulltest; nested exception is org.springframework.web.reactive.function.UnsupportedMediaTypeException: Content type 'application/octet-stream' not supported for bodyType=model.com.test.consumertestapp.ExampleObj
+09:07:38.618 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+09:07:43.560 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: 200 OK from GET http://localhost:60325/nulltest; nested exception is org.springframework.web.reactive.function.UnsupportedMediaTypeException: Content type 'application/octet-stream' not supported for bodyType=model.com.test.consumertestapp.ExampleObj
+09:13:17.524 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+09:13:21.092 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: 200 OK from GET http://localhost:60513/nulltest; nested exception is org.springframework.web.reactive.function.UnsupportedMediaTypeException: Content type 'application/octet-stream' not supported for bodyType=model.com.test.consumertestapp.ExampleObj
+09:56:21.689 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+09:59:27.685 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+09:59:59.239 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+10:01:13.637 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+10:01:14.462 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: 200 OK from GET http://localhost:61996?hello=test; nested exception is org.springframework.web.reactive.function.UnsupportedMediaTypeException: Content type 'application/octet-stream' not supported for bodyType=model.com.test.consumertestapp.ExampleObj
+10:03:11.707 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+10:03:12.618 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: 200 OK from GET http://localhost:62053?hello=test; nested exception is org.springframework.web.reactive.function.UnsupportedMediaTypeException: Content type 'application/octet-stream' not supported for bodyType=model.com.test.consumertestapp.ExampleObj
+10:06:02.937 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+10:06:03.790 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: 200 OK from GET http://localhost:62137/nulltest; nested exception is org.springframework.web.reactive.function.UnsupportedMediaTypeException: Content type 'application/octet-stream' not supported for bodyType=model.com.test.consumertestapp.ExampleObj
+10:06:42.786 [Test worker] INFO  c.e.t.c.s.CustomWebClientServiceImpl - Calling getExampleObject with value test
+10:06:43.607 [reactor-http-nio-2] ERROR c.e.t.c.s.CustomWebClientServiceImpl - Error getting example object: 200 OK from GET http://localhost:62181/nulltest; nested exception is org.springframework.web.reactive.function.UnsupportedMediaTypeException: Content type 'application/octet-stream' not supported for bodyType=model.com.test.consumertestapp.ExampleObj

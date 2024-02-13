@@ -1,0 +1,7 @@
+pulsar:
+  url: 'pulsar://localhost:6650'
+  topic: 'potato-topic3'
+  topic2: 'potato-topic4'
+
+server:
+  port: 8100

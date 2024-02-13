@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/consumer-test-app/apache_pulsar_broker_consumer_producer_app.consumer-test-app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/consumer-test-app/apache_pulsar_broker_consumer_producer_app.consumer-test-app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/producer-test-app/apache_pulsar_broker_consumer_producer_app.producer-test-app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/producer-test-app/apache_pulsar_broker_consumer_producer_app.producer-test-app.main.iml" />
+    </modules>
+  </component>
+</project>
